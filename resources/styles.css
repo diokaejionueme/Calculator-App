@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@500&display=swap');
+
+:root {
+    --main-font: 'Saira Semi Condensed', sans-serif;
+
+--hollow-black: hsl(160,47%,4%);
+--hollow-green: hsl(165,32%,20%);
+--white: rgb(255, 255, 255);
+--dull-grey: hsl(144,11%,63%);
+--grey-ash: hsl(165,2%,43%);
+--naija-green: hsl(115,47%,43%);
+--dull-green: hsl(114,38%,63%);
+--background-grey: hsl(0,0%,16%); 
+}
+
+body {
+    background-color: var(--hollow-green);
+    font-family: var(--main-font);
+}
+
+
+.grid-4x{
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+}
+
+
+main{
+    background-color: var(--background-grey);
+    width: 250px;
+    height: 491px;
+    border-radius: 20px;
+    margin-left: 100px;
+    color: var(--white);
+    padding-left: 5px;
+    padding-right: 5px;
+
+
+}
+
+
+.screen{
+    
+    position: relative;
+    height: 200px;
+    width: 239px;
+    
+
+}
+hr {
+    width: 150px;
+    margin-left: 80px;
+
+}
+
+.body {
+    
+ 
+}
+
+div {
+    margin: 20px;
+    text-align: center;
+}
+
+.first-row {
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 5px;
+    margin: 10px;
+    width: 40px;
+    height: 30px;
+    background-color: var(--grey-ash);
+}
+
+.second-row {
+
+    margin: 10px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.multiplication{
+    
+    border-radius: 10px;
+    width: 40px;
+    height: 30px;
+    background-color: var(--grey-ash);
+
+}
+.third-row {
+    margin: 10px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+
+.subtraction {
+    border-radius: 10px;
+    width: 40px;
+    height: 30px;
+    background-color: var(--grey-ash);
+}
+
+.fourth-row {
+    margin: 10px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.addition{
+    border-radius: 10px;
+    width: 40px;
+    height: 30px;
+    background-color: var(--grey-ash);
+}
+
+.fifth-row{
+    margin: 10px;
+    padding-top: 5px;
+    text-align: center;
+    color: var(--white)
+}
+
+.equalSign{
+    
+    background-color: var(--hollow-black);
+    grid-area: 5 / 3 / 6 / 5;
+    border-radius: 10px;
+}
+
+.text-input{
+    padding-top: 60px;
+    text-align: right;
+}
+
+.result {
+    padding-top: 20px;
+    text-align: right;
+    color: var(--naija-green);
+    font-size: xx-large;
+}
+
+
