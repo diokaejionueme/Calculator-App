@@ -65,6 +65,11 @@ div {
     text-align: center;
 }
 
+.button:hover{
+    background-color:rgb(255, 255, 255);
+    color: black;
+    transition: 0.4s ease-in-out;
+}
 .first-row {
     text-align: center;
     border-radius: 10px;
